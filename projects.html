@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - FlatFiles.org</title>
+    <style>
+        /* ... (keep the existing styles from index.html) ... */
+        
+        /* Additional styles for the projects page */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .project-card {
+            background: rgba(0, 40, 0, 0.3);
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+        .project-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #00ff00;
+        }
+        .project-card p {
+            font-size: 1em;
+            color: #00cc00;
+        }
+        .project-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 15px;
+            background-color: #00ff00;
+            color: #000;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .project-link:hover {
+            background-color: #000;
+            color: #00ff00;
+            box-shadow: 0 0 10px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="matrix-rain"></canvas>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">FlatFiles.org</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>Our Projects</h1>
+            <p>Explore our cutting-edge solutions designed to revolutionize file management and data organization.</p>
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>QuantumSort</h3>
+                    <p>A quantum-inspired sorting algorithm that organizes files with unprecedented speed and efficiency.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>AI File Predictor</h3>
+                    <p>Machine learning-powered system that predicts and suggests file locations based on user behavior.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>HoloStorage</h3>
+                    <p>Holographic data storage solution for ultra-high density and long-term data preservation.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+                <div class="project-card">
+                    <h3>NeuroFile</h3>
+                    <p>Neural network-based file system that adapts and evolves with user interactions.</p>
+                    <a href="#" class="project-link">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 FlatFiles.org. All rights reserved. | Embrace the Code</p>
+        </div>
+    </footer>
+
+    <script>
+        // ... (keep the existing Matrix rain effect script) ...
+    </script>
+</body>
+</html>
