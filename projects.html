@@ -22,14 +22,21 @@
         header {
             background-color: rgba(0, 40, 0, 0.7);
             padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
         }
         .logo {
-            font-size: 1.5em;
+            font-size: 2em;
             font-weight: bold;
         }
         nav ul {
@@ -38,7 +45,7 @@
         }
         nav ul li {
             display: inline;
-            margin-left: 20px;
+            margin-left: 30px;
         }
         nav ul li a {
             color: #00ff00;
@@ -110,16 +117,14 @@
 <body>
     <canvas id="matrix-rain"></canvas>
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">FlatFiles.org</div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <div class="logo">FlatFiles.org</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
