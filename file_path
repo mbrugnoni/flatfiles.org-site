@@ -40,13 +40,3 @@
     color: #00ff00;
     box-shadow: 0 0 10px #00ff00;
 }
-
-// Added HTML structure for projects
-<div class="project-grid">
-    <div class="project-card">
-        <h3>QuantumSort</h3>
-        <p>A quantum-inspired sorting algorithm that organizes files with unprecedented speed and efficiency.</p>
-        <a href="#" class="project-link">Learn More</a>
-    </div>
-    <!-- Additional project cards... -->
-</div>
