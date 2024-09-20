@@ -66,8 +66,8 @@
             text-shadow: 0 0 10px #00ff00;
         }
         h1 {
-            font-size: 3.5em;
-            margin-bottom: 30px;
+            font-size: 2.5em; /* Reduced from 3.5em to 2.5em */
+            margin-bottom: 20px; /* Adjusted margin for better spacing */
         }
         h2 {
             font-size: 2.5em;
@@ -78,9 +78,9 @@
             margin-bottom: 20px;
         }
         .hero {
-            height: 100vh;
             display: flex;
-            align-items: center;
+            align-items: flex-start; /* Changed from center to flex-start to align content to the top */
+            padding-top: 50px; /* Added padding to move content up */
             background: linear-gradient(45deg, #001400, #003000);
             position: relative;
             overflow: hidden;
